@@ -1,0 +1,28 @@
+[
+ {
+  "id": "Q1",
+
+  "question": "hello world?",
+  "choices": [{"text":"poor", "id":"63"},{"text":"good", "id":"64"}, {"text":"Better", "id":"65"}, {"text":"best", "id":"66"}],
+  "type" : "check"
+  
+ },
+ {
+  "id": "Q2", 
+  "question":"howa are you?",
+  "choices": [{"text":"poor", "id":"63"},{"text":"good", "id":"64"}, {"text":"Better", "id":"65"}, {"text":"best", "id":"66"}],
+  "type" : "radio"
+ },
+ {
+  "id": "Q3", 
+  "question":"howa are you?",
+  "choices": [{"text":"poor", "id":"63"},{"text":"good", "id":"64"}, {"text":"Better", "id":"65"}, {"text":"best", "id":"66"}],
+  "type" : "text"
+ },
+ {
+  "id": "Q4", 
+  "question":"order the following items by their relevance:",
+  "choices": [{"text":"service", "id":"63", "text":"0"},{"text":"cleanliness", "id":"64"}, {"text":"Sleep Quality", "id":"65"}, {"text":"Location", "id":"66"}],
+  "type" : "rank"
+ }
+]

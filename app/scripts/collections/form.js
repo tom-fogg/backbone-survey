@@ -3,14 +3,12 @@
 IndabaSurvey.Collections = IndabaSurvey.Collections || {};
 
 (function () {
-    
+    'use strict';
 
-    IndabaSurvey.Collections.Questions = Backbone.Collection.extend({
+    IndabaSurvey.Collections.Form = Backbone.Collection.extend({
 
-        model : IndabaSurvey.Models.Question ,
+        model: IndabaSurvey.Models.Form,
         url: '/questions.json'
-
-
 
     });
 

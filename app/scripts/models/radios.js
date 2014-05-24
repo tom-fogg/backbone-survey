@@ -3,22 +3,20 @@
 IndabaSurvey.Models = IndabaSurvey.Models || {};
 
 (function () {
+    'use strict';
 
-    IndabaSurvey.Models.QuestionModel = Backbone.Model.extend({
+    IndabaSurvey.Models.Radios = Backbone.Model.extend({
 
         url: '',
+        defaults: {
+            value: 'an item',
+            units: []
+        },
 
         initialize: function() {
-            console.log("yo")
         },
 
-        defaults: {
-            'id':0,
-            'type':'check',
-            'choices' : [],
-            'answered' : false
-        },
-
+        
         validate: function(attrs, options) {
         },
 
